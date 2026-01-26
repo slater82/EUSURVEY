@@ -10,13 +10,13 @@
 	<version>1.5.4</version>
 	<properties>
 		<java-version>11</java-version>
-		<org.springframework-version>5.3.20</org.springframework-version>
-		<org.springframework.security-version>5.7.5</org.springframework.security-version>
+		<org.springframework-version>6.2.11</org.springframework-version>
+		<org.springframework.security-version>5.7.14</org.springframework.security-version>
 		<org.aspectj-version>1.8.8</org.aspectj-version>
 		<org.slf4j-version>1.7.5</org.slf4j-version>
 		<version.number>444</version.number>
 		<svnName>1.1.9</svnName>
-		<camel.version>2.22.3</camel.version>
+		<camel.version>4.17.0</camel.version>
 		<svn.buildNumber.doUpdate>false</svn.buildNumber.doUpdate>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
-			<version>20230227</version>
+			<version>20231013</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jfree</groupId>
@@ -85,7 +85,7 @@
 		<dependency>
 			<groupId>org.owasp.esapi</groupId>
 			<artifactId>esapi</artifactId>
-			<version>2.1.0.1</version>
+			<version>2.6.0.0</version>
 		</dependency>
 
 		<dependency>
@@ -97,7 +97,7 @@
 		<dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
-			<version>1.14.2</version>
+			<version>1.15.3</version>
 		</dependency>
 
 		<dependency>
@@ -186,7 +186,7 @@
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
-			<version>1.5</version>
+			<version>1.6.0</version>
 		</dependency>
 
 		<dependency>
@@ -198,19 +198,19 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-compress</artifactId>
-			<version>1.19</version>
+			<version>1.26.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.4</version>
+			<version>3.18.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>2.7</version>
+			<version>2.14.0</version>
 		</dependency>
 
 		<dependency>
@@ -477,13 +477,13 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.17</version>
+			<version>4.1.1</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>3.17</version>
+			<version>5.4.0</version>
 		</dependency>
 
 		<dependency>
@@ -549,19 +549,19 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>2.12.6</version>
+			<version>2.15.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.12.6.1</version>
+			<version>2.12.7.1</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
-			<version>1.4.9</version>
+			<version>1.4.21</version>
 		</dependency>
 
 		<dependency>
